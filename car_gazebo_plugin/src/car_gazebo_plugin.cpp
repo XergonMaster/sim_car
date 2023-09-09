@@ -129,7 +129,7 @@ void CarGazeboPlugin::Load(gazebo::physics::ModelPtr model,
 
     cmd_vel_sub = ros_node_->create_subscription<geometry_msgs::msg::Twist>(
       // "/" + model_->GetName() +
-       "/cmd_vel", 2, std::bind(&CarGazeboPlugin::twist_callback, this, std::placeholders::_1));
+       "/cmd_vel_out", 2, std::bind(&CarGazeboPlugin::twist_callback, this, std::placeholders::_1));
 
 
   }
