@@ -137,7 +137,7 @@
             <resolution>1</resolution>
             <!-- <min_angle>${-pi}</min_angle>
             <max_angle>${pi}</max_angle> -->
-            <min_angle>${0}</min_angle>
+            <min_angle>0</min_angle>
             <max_angle>${2*pi}</max_angle>
           </horizontal>
         </scan>
